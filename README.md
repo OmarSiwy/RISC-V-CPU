@@ -28,25 +28,12 @@ I understand this will involve adding onto the RISC-V ISA, which isn't very hard
 - **D**: Double-precision number handling.
 - **A**: Atomic operations for thread-safe memory access.
 - **C**: Compressed instructions for reducing code size.
-- **Zicsr**: Control and status register instructions for efficient OS implementation.
-- **Zifencei**: Instruction-fetch fence for better security and synchronization.
-
-## Performance
-
-Refer to the script `PowerRating.tcl` for more recent results.
-
-## Size
-
-Refer to the script `SizeRating.tcl` for more recent results.
 
 ## Testing
 
 ```bash
 make test
 ```
-
-**TO DO**:
-- Add https://github.com/chipsalliance/riscv-dv testing
 
 ## Development
 
@@ -63,7 +50,3 @@ make test
 ```bash
 make all
 ```
-
-## Fabrication
-
-This project is not completed with the OS features I'd like, and fabrication is quite expensive. Therefore, I aim to perfect it before sending it out for fabrication.
