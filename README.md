@@ -1,7 +1,5 @@
 ## **RISC-V-CPU**
 
-![RISC-V Logo](https://riscv.org/wp-content/uploads/2019/03/riscv-logo-stacked.png)
-
 ### Project Overview
 Base RISC-V CPU intended to evolve over time to integrate OS-Managed Context Switching into it for faster performance.
 
